@@ -1,0 +1,41 @@
+{
+  "name": "start-html",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "~4.0.0-alpha.6",
+    "modernizr": "~2.8.1",
+    "bootstrap-datepicker": "^1.7.1",
+    "magnific-popup": "^1.1.0",
+    "selectize": "^0.12.4",
+    "moment": "momentjs#^2.21.0",
+    "jQuery.mmenu": "mmenu#^7.0.3",
+    "owl.carousel": "owl-carousel2#^2.3.3",
+    "animate.css": "^3.5.2",
+    "jquery_lazyload": "jquery.lazyload#^1.9.7",
+    "flag-icon-css": "^3.1.0",
+    "malihu-custom-scrollbar-plugin": "^3.1.5"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": []
+    },
+    "bootstrap-datepicker": {
+      "main": [
+        "dist/js/bootstrap-datepicker.min.js",
+        "dist/locales/bootstrap-datepicker.ru.min.js",
+        "dist/css/bootstrap-datepicker3.standalone.min.css"
+      ]
+    },
+    "moment": {
+      "main": [
+        "moment.js",
+        "locale/ru.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1"
+  }
+}
